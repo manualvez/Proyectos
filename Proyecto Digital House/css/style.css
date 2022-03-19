@@ -7,7 +7,6 @@ header {
     width: 1080px;
 }
 .iconwsp {
-    display: flex;
     height: 6%;
     position: fixed;
     left:95%;
@@ -18,13 +17,16 @@ header {
     justify-content: left; 
     align-items: center;
 }
+aheader {
+    width: 15%;
+}
 .imghead {
     width: 15%;
     margin-left: 10%;
     margin-right: 3%;
     border: 1px white solid;
 }
-a:link, a:visited, a:active {
+a {
     text-decoration: none;
 }
 body{
